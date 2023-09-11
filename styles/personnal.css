@@ -1,0 +1,24 @@
+.pagelogo{
+    mix-blend-mode:hard-light;
+    border:solid rgb(138, 6, 6) 5px;
+    border-radius:20px;
+}
+
+.second_logo{
+    mix-blend-mode:color-light;
+    border-radius:10px;
+    transition:ease-in-out 1s;
+}
+
+@media (max-width:571px) {
+    .second_logo{
+        transform:scaleX(-60%);
+        width:100px;
+        height:auto;
+    }
+
+}
+
+#majornav{
+    border-bottom: rgba(28, 3, 3, 0) solid 5px;
+}
